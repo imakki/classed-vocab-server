@@ -37,4 +37,4 @@ mongoose
   .then(() => {
     app.listen(PORT);
   })
-  .catch((error) => handleError(error));
+  .catch((error) => console.log(error));
